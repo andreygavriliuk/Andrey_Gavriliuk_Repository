@@ -8,6 +8,6 @@ def find_missing_numbers():
     print(nums)
     print(nums_normal_distribution)
     missing_numbers = [i for i in nums_normal_distribution if i not in nums]
-    print(missing_numbers)
+    return(missing_numbers)
     
-find_missing_numbers()
+print(find_missing_numbers())
